@@ -1,7 +1,12 @@
+#koptext{
+    font-family: Helvetica, Sans-Serif;
+    background-color:white;
+    border-radius: 25%;
+}
 
 .container{
     display: flex;
-    
+
 }
 
 .col{
@@ -16,11 +21,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .button span{
-    
+
     font-size: 2em;
-    font-family: consolas;
+    font-family: Helvetica, Sans-Serif;
+}
+
+ul{
+    font-family: Helvetica, Sans-Serif;
+    background-color: orangered;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li{
+    
+    display: inline;
+    color: black;
+}
+
+
+li a{
+
+    padding: 10px;
+text-decoration: none;
+color: white;
+}
+
+table{
+    font-family: Helvetica, Sans-Serif;
+    color: white;
+    background-color: orangered;
+border-radius: 15px;
+padding-bottom: 25px;
+}
+
+th{
+padding: 10px;
+text-align: left;
+}
+
+td{
+text-align: left;
+
 }
